@@ -5,37 +5,125 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Web</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Hurricane&display=swap');
+        body{
+            background-color: #011627;
+            color: #E8E9F3;
+            font-family: sans-serif;
+            font-size: 16px;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        h3{
+            text-align: center;
+            font-size: 24px;
+            font-family: 'Grape Nuts';
+            margin-bottom: 1%;
+        }
+        #header{ 
+            text-align: right;
+            margin-top: 1.5%;
+        }
+        #header a{
+            font-family: sans-serif;
+            font-size: 16px;
+            text-decoration: none;
+            background-color: #FFD046;
+            border: 1px solid #FFD046;
+            border-radius: 25%;
+            color: #011627;
+            padding: 10px 6px;
+            margin-left: 5px;
+        }
+        #informacaoPessoal h1{
+            font-size: 56px;
+            font-family: 'Grape Nuts', cursive;
+            text-align: center;
+            color: #FFD046;
+        }
+        #informacaoPessoal hr{
+            color: #FFD046;
+        }
+        #informacaoPessoal .name{
+            font-size: 28px;
+            font-family: 'Hurricane', sans-serif;
+            text-align: center;
+        }
+        #informacaoPessoal .description p{
+            text-align: justify;
+            letter-spacing: 1.25px;
+            font-family: cursive;
+            margin-bottom: 2%;
+            margin-left: 7.5%;
+            margin-right: 7.5%;
+        }
+        #informacaoPessoal .image{
+            text-align: center;
+            margin-bottom: 1%;
+        }
+        #informacaoPessoal .image img{
+            border-radius: 100%;
+            width: 150px;
+        }
+        #informacaoPessoal .abilites #abilitesList{
+           margin-left: 30%;
+           display: flex;
+        flex-direction: row;
+        }
+        #informacaoPessoal .abilites #abilitesList .partList{
+            margin-right: 5%;
+        }
+        #informacaoPessoal .abilites #abilitesList .partList .ability{
+            line-height: 40px;
+            font-family: cursive;
+            color: #C2E7DA;
+        }
+        #informacaoPessoal .abilites #abilitesList .partList .ability:first-of-type{
+            color: #FFD046;
+        }
+        #informacaoPessoal .abilites #abilitesList .partList .ability:last-of-type{
+            color: #E1DEE9;
+        }
+    </style>
 </head>
 <body>
     <header id="header">
         
-            <a href="#name">nome</a>
-            <a href="#foto">foto</a>
-            <a href="#descricao">descrição</a>
-            <a href="#habilidades">habilidades</a>
-            <a href="www.webnovel.com">site que gosto</a>
+            <a href="#name">Nome</a>
+            <a href="#image">Foto</a>
+            <a href="#description">Descrição</a>
+            <a href="#abilites">Habilidades</a>
+            <a href="www.webnovel.com">Site que gosto</a>
         
     </header>
     <div id="informacaoPessoal">
+        <h1>Portfólio</h1>
         <div class="name">
-            <h4>Ícaro Joel Moura Pinto</h4>
+            <h2>Ícaro Joel Moura Pinto</h2>
         </div>
-        <div class="foto">
+        <div class="image">
             <img src="foto.jpg" alt="cara do icaro com o banheiro como plano de fundo">
         </div>
-        <div class="descricao">
-            <p>Um Jovem brasileiro, mora em Uauá-Ba, tem 18 anos, ama jogos desde pequeno, o que o levou a estudar programação e decidir trabalhar nessa área. Ele espera trabalhar com programação e investir para ficar rico. Em algum lugar que não é o brasil. Sua visão de mundo é fundamentada no libertarianismo e do jusnaturalismo.</p>
-            
-            <p>Gosta de animes , jogos(jogos indies e Grand strategy), livros, mangás, novels e webnovels.</p>
+        <hr>
+        <div class="description">
+            <h3>Um pouco sobre mim</h3>
+            <p>Um Jovem <em>brasileiro</em> que mora em <em>Uauá-Ba</em>,<strong> tem 18 anos</strong>, ama jogos desde pequeno, o que o levou a estudar programação e decidir trabalhar nessa área. Ele espera trabalhar com programação e investir para ficar rico. Em algum lugar que não é o brasil. Sua visão de mundo é fundamentada no libertarianismo e do jusnaturalismo. Gosta de animes , jogos( jogos indies e Grand strategy ), livros, mangás, novels e webnovels.</p>
         </div>
-        <div class="habilidades">
-            <ol>
-                <li><strong>Aprender</strong></li>
-                <li>Ler</li>
-                <li>Jogar</li>
-                <li>GIT</li>
-                <li>PHP</li>
+        <hr>
+        <div class="abilites">
+            <h3>Habilidades</h3>
+            <ol id="abilitesList">
+                <div class="partList">
+                    <li class="ability">Aprender</li>
+                    <li class="ability">Ler</li>
+                    <li class="ability">Jogar</li>
+                </div>
+                <!--    
+                <div class="partList"></div>
+                <div class="partList"></div>
+                <div class="partList"></div>
+                -->
             </ol>
         </div>
     </div>
