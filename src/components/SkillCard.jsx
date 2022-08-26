@@ -1,5 +1,3 @@
-import './css/skill.css';
-
 export default function SkillCard(props) {
   const { name, picture } = props;
   return (  

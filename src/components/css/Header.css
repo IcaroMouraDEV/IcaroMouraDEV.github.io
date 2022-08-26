@@ -1,0 +1,17 @@
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #3F3F4E;
+}
+
+.header h1 {
+  color: #FBFCF8;
+}
+
+.header a {
+  color: #FBFCF8;
+  padding: 5px;
+  text-decoration: none;
+}
