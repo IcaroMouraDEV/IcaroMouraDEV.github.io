@@ -1,16 +1,10 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 .skill-main {
+  background-color: #232023;
+  border: none;
   display: flex;
   flex-direction: column;
-  border: 1px solid #626262;
   padding: 30px;
   text-align: center;
-  background-color: #232023;
 }
 
 .skill-main h2 {
@@ -24,7 +18,7 @@
 }
 
 .skill-card {
-  border: 1px solid #121212;
+  border: 1px solid #3F3F4E;
   padding: 15px;
 }
 

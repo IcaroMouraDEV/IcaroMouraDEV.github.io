@@ -29,7 +29,7 @@ export default function Skill() {
       <h2>Habilidades</h2>
       <div className="skill-container">
         <Carousel responsive={responsive}>
-        {
+          {
             skills.map((skill) => (
               <SkillCard key={ skill.name } { ...skill } />
             ))

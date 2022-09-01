@@ -1,3 +1,4 @@
+import './App.css';
 import Header from './components/Header';
 import Skill from './components/Skill';
 

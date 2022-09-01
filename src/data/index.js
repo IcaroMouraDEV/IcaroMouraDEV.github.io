@@ -1,27 +1,44 @@
+import css from './images/icon/css.png';
+import git from './images/icon/git.png';
+import html from './images/icon/html.png';
+import javascript from './images/icon/javascript.png';
+import jest from './images/icon/jest.png';
+import react from './images/icon/react.png';
+import redux from './images/icon/redux.svg';
+import rtl from './images/icon/rtl.png';
+
 export const skills = [
   {
     name: 'React',
-    picture: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png',
+    picture: react,
   },
   {
     name: 'Redux',
-    picture: 'https://cdn.worldvectorlogo.com/logos/redux.svg',
+    picture: redux,
   },
   {
     name: 'Git',
-    picture: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png',
+    picture: git,
   },
   {
     name: 'JavaScript',
-    picture: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
+    picture: javascript,
   },
   {
     name: 'Html',
-    picture: 'https://cdn-icons-png.flaticon.com/512/732/732212.png',
+    picture: html,
   },
   {
     name: 'Css',
-    picture: 'https://cdn-icons-png.flaticon.com/512/732/732190.png',
+    picture: css,
+  },
+  {
+    name: 'Jest',
+    picture: jest,
+  },
+  {
+    name: 'React Testing Library',
+    picture: rtl,
   },
 ];
 
