@@ -1,0 +1,27 @@
+.skill-main {
+  background-color: #232023;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  text-align: center;
+}
+
+.skill-main h2 {
+  color: #FBFCF8;
+  padding: 5px 0px 20px;
+}
+
+.skill-main h3 {
+  color: #FBFCF8;
+  padding: 10px;
+}
+
+.skill-card {
+  border: 1px solid #3F3F4E;
+  padding: 15px;
+}
+
+.skill-img {
+  height: 100px;
+}
