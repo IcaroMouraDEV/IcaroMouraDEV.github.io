@@ -1,13 +1,20 @@
 import css from './images/icon/css.png';
+import docker from './images/icon/docker.webp';
 import git from './images/icon/git.png';
 import html from './images/icon/html.png';
 import javascript from './images/icon/javascript.png';
 import jest from './images/icon/jest.png';
+import mysql from './images/icon/mysql.svg';
+import nodejs from './images/icon/nodejs.png';
 import react from './images/icon/react.png';
 import redux from './images/icon/redux.svg';
 import rtl from './images/icon/rtl.png';
 
 export const skills = [
+  // {
+  //   name: 'skill_name',
+  //   picture: 'skill_url',
+  // },
   {
     name: 'React',
     picture: react,
@@ -40,13 +47,37 @@ export const skills = [
     name: 'React Testing Library',
     picture: rtl,
   },
+  {
+    name: 'Docker',
+    picture: docker,
+  },
+  {
+    name: 'mySQL',
+    picture: mysql,
+  },
+  {
+    name: 'Nodejs',
+    picture: nodejs,
+  },
 ];
 
 export const projects = [
+  // {
+  //   name: 'project_name',
+  //   picture: 'project_image_url',
+  //   description: 'project_description',
+  //   repository: 'project_github_repository',
+  // },
   {
-    name: 'project_name',
-    picture: 'project_image',
+    name: 'Frontend Online Store',
+    picture: 'project_image_url',
     description: 'project_description',
-    repository: 'github_url',
-  }
+    repository: 'https://github.com/IcaroMouraDEV/Frontend-Online-Store',
+  },
+  {
+    name: 'Docker Todo List',
+    picture: 'project_image_url',
+    description: 'project_description',
+    repository: 'https://github.com/IcaroMouraDEV/docker-todo-list',
+  },
 ];

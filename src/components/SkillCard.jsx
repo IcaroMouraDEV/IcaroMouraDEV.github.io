@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function SkillCard(props) {
   const { name, picture } = props;
   return (  

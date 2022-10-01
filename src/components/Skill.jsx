@@ -3,6 +3,7 @@ import 'react-multi-carousel/lib/styles.css';
 import { skills } from "../data";
 import './css/skill.css';
 import SkillCard from "./SkillCard";
+
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
